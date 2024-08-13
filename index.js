@@ -1,5 +1,9 @@
 var num = prompt("Enter your marks in ICT IN HSC");
 
+if(num > 100 && num < 0)
+document.write("Salar pot. Aj projonto kono exam e dekchis kauke 100 r beshi ba 0 er kom paite? HAla. VAG");
+    
+
 if (num <= 100 && num >= 80)
 
     document.write("Your Grade is: A+");
